@@ -1,0 +1,40 @@
+strcmp  = 0xC  = sub_4d0
+gets    = 0x10 = sub_4e0
+puts    = 0x18 = sub_500
+strncpy = 0x2c = sub_550
+
+             _GLOBAL_OFFSET_TABLE_:
+00001fb8         db  0xc0 ; '.'
+00001fb9         db  0x1e ; '.'
+00001fba         db  0x00 ; '.'
+00001fbb         db  0x00 ; '.'
+00001fbc         db  0x00 ; '.'
+00001fbd         db  0x00 ; '.'
+00001fbe         db  0x00 ; '.'
+00001fbf         db  0x00 ; '.'
+00001fc0         db  0x00 ; '.'
+00001fc1         db  0x00 ; '.'
+00001fc2         db  0x00 ; '.'
+00001fc3         db  0x00 ; '.'
+             strcmp@GOT:        // strcmp
+00001fc4         dd         0x00003000
+             gets@GOT:        // gets
+00001fc8         dd         0x00003008
+             _IO_getc@GOT:        // _IO_getc
+00001fcc         dd         0x0000300c
+             puts@GOT:        // puts
+00001fd0         dd         0x00003014
+             __libc_start_main@GOT:        // __libc_start_main
+00001fd4         dd         0x0000301c
+             setvbuf@GOT:        // setvbuf
+00001fd8         dd         0x00003020
+             fopen@GOT:        // fopen
+00001fdc         dd         0x00003024
+             putchar@GOT:        // putchar
+00001fe0         dd         0x00003028
+             strncpy@GOT:        // strncpy
+00001fe4         dd         0x0000302c
+00001fe8         dd         0x00000000                                          ; DATA XREF=deregister_tm_clones+27
+00001fec         dd         0x00000000                                          ; DATA XREF=__do_global_dtors_aux+27
+00001ff0         db  0x00 ; '.'
+00001ff1         db  0x00 ; '.'

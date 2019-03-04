@@ -1,0 +1,55 @@
+# hijack client packets before it is sent to server.
+if (ip.proto == TCP && ip.dst == '172.30.0.2') {
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "US5MJOeTx6L69iQT3Y8B9g=="); # s
+    #replace("0bGyNN1VKjWCxituvKDVvg==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("4iLXaYY1As8N9+wW+PVQOg==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("83jbJmmZc/RUXML8GcGuVg==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("9+fXRGjlf3TvpwR6XiqcSw==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("92fKIeYPq2HyqG8DSo2Mfw==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("KLVDOWDtxnck6THwQuPfGg==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("L2/wiXcz7QQyFdbuDe14+w==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("MC9KVKLGfFmxvdr6qNuZpA==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("MufXoG4oKY+tLj7TNMzMtQ==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("RdGNIA97r2yYuQsdXjbQGA==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("S+79/0xJH6oVAqvGSE+Vlw==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("Tkb8E728rfsc+V1i5HtOzQ==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("US5MJOeTx6L69iQT3Y8B9g==", "83jbJmmZc/RUXML8GcGuVg==");
+    #replace("WSThaqht6loKlvNDraoarw==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("XpjdNQ+r0XfWy25TW5lyAg==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("YiqMxpZQz+5dPf+qELowBw==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("bIyEa1uO0qUPR+sBqjAJ8g==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("gCe+M22NmuwF6cPVKGGoZQ==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("h8zZvECdaFr730Mgo5EgYQ==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("lwzGU75ZfX1C+vFQE1ahTQ==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("mJoY/dqOlVLjsIzq/ZmGbg==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("vCffRJyLzPpoDVYNvxEtoA==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("wJNrzltAAb7rg/64niXZNg==", "US5MJOeTx6L69iQT3Y8B9g==");
+
+
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "US5MJOeTx6L69iQT3Y8B9g=="); # s
+    replace("/Ks7iNV5tZaZT32Epav0CA==", "4iLXaYY1As8N9+wW+PVQOg==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "83jbJmmZc/RUXML8GcGuVg==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "9+fXRGjlf3TvpwR6XiqcSw==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "92fKIeYPq2HyqG8DSo2Mfw==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "KLVDOWDtxnck6THwQuPfGg==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "L2/wiXcz7QQyFdbuDe14+w==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "MC9KVKLGfFmxvdr6qNuZpA==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "MufXoG4oKY+tLj7TNMzMtQ==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "RdGNIA97r2yYuQsdXjbQGA==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "S+79/0xJH6oVAqvGSE+Vlw==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "Tkb8E728rfsc+V1i5HtOzQ==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "US5MJOeTx6L69iQT3Y8B9g==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "WSThaqht6loKlvNDraoarw==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "XpjdNQ+r0XfWy25TW5lyAg==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "YiqMxpZQz+5dPf+qELowBw==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "bIyEa1uO0qUPR+sBqjAJ8g==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "gCe+M22NmuwF6cPVKGGoZQ==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "h8zZvECdaFr730Mgo5EgYQ==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "lwzGU75ZfX1C+vFQE1ahTQ==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "mJoY/dqOlVLjsIzq/ZmGbg==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "vCffRJyLzPpoDVYNvxEtoA==");
+    #replace("/Ks7iNV5tZaZT32Epav0CA==", "wJNrzltAAb7rg/64niXZNg==");
+
+
+   msg("Hijacked C\n");
+}

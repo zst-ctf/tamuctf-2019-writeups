@@ -1,0 +1,62 @@
+    ; Variables:
+    ;    arg_0: int, 8
+    ;    var_4: -4
+    ;    var_C: -12
+    ;    var_2A: -42
+
+int select_func(int arg0) {
+    stack[2048] = arg0;
+    eax = __x86.get_pc_thunk.bx();
+    var_C = ebx + 0xffffff22;
+    stack[2031] = 0x1f;
+    stack[2030] = arg0;
+    stack[2029] = &var_2A;
+    eax = sub_550();
+    stack[2030] = ebx + 0x1b8;
+    stack[2029] = &var_2A;
+    esp = ((esp - 0x10) + 0x10 - 0x10) + 0x10;
+    if (sub_4d0() == 0x0) {
+            var_C = one;
+    }
+    eax = (var_C)();
+    ebx = var_4;
+    return eax;
+}
+
+             select_func:
+0000077f         push       ebp                                                 ; End of unwind block (FDE at 0xa68), Begin of unwind block (FDE at 0xa8c), CODE XREF=main+92
+00000780         mov        ebp, esp
+00000782         push       ebx
+00000783         sub        esp, 0x34
+00000786         call       __x86.get_pc_thunk.bx                               ; __x86.get_pc_thunk.bx
+0000078b         add        ebx, 0x182d
+00000791         lea        eax, dword [ebx-0x190b]
+00000797         mov        dword [ebp+var_C], eax
+0000079a         sub        esp, 0x4
+0000079d         push       0x1f
+0000079f         push       dword [ebp+arg_0]
+000007a2         lea        eax, dword [ebp+var_2A]
+000007a5         push       eax
+000007a6         call       sub_550                                             ; sub_550
+000007ab         add        esp, 0x10
+000007ae         sub        esp, 0x8
+000007b1         lea        eax, dword [ebx-0x1675]
+000007b7         push       eax
+000007b8         lea        eax, dword [ebp+var_2A]
+000007bb         push       eax
+000007bc         call       sub_4d0                                             ; sub_4d0
+000007c1         add        esp, 0x10
+000007c4         test       eax, eax
+000007c6         jne        loc_7d1
+
+000007c8         lea        eax, dword [ebx-0x1fb8+one]                         ; one
+000007ce         mov        dword [ebp+var_C], eax
+
+             loc_7d1:
+000007d1         mov        eax, dword [ebp+var_C]                              ; CODE XREF=select_func+71
+000007d4         call       eax
+000007d6         nop
+000007d7         mov        ebx, dword [ebp+var_4]
+000007da         leave
+000007db         ret
+                        ; endp
