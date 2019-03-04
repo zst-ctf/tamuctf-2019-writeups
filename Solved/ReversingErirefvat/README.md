@@ -15,6 +15,8 @@ We are given source code in AT&T syntax assembly.
 
 Since I am very weak in assembly, let's assemble it and then decompile it back into psuedo-C code.
 
+**Edited: Apparently, it ca only be compiled on macOS, so I got lucky here**
+
 [Assemble the ASM file using GCC](https://stackoverflow.com/a/7190391)
 
     $ gcc reversing4.s -o hello
