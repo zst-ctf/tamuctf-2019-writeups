@@ -98,12 +98,12 @@ Reformat it to be easier to read... From this, we know that the server takes in 
 After lots of searching, I found out [an article on a vulnerability](http://scottksmith.com/blog/2015/06/08/secure-node-apps-against-owasp-top-10-injection/)
 
 > When this executes, we will find all users with user greater than "" and pass greater than "". This will return all users within the user table. This happened because we are not explicitly setting the query selector so the attacker was able to specify one themself.
-> 
-> ```{
-    "user": {"$gt": ""},
-    "pass": {"$gt": ""}
-}
-```
+
+    {
+        "user": {"$gt": ""},
+        "pass": {"$gt": ""}
+    }
+
 
 Let's try it out
 

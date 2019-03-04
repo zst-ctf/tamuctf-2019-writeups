@@ -11,11 +11,11 @@ hello_world.cpp
 
 ## Solution
 
-###[Whitespace program](https://en.wikipedia.org/wiki/Whitespace_(programming_language)) 
+### [Whitespace program](https://en.wikipedia.org/wiki/Whitespace_(programming_language)) 
 
 Online interpretors
-https://vii5ard.github.io/whitespace/
-https://tio.run/#whitespace
+- https://vii5ard.github.io/whitespace/
+- https://tio.run/#whitespace
 
 It outputs the following
 
